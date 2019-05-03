@@ -15,7 +15,7 @@ describe('card lib', () => {
       expect(cardValidator.cardValidator('4532583597717045')).to.equal(false);
     });
     it('It should be false for boolean', () => {
-      expect(cardValidator.cardValidator('true')).to.equal(false);
+      expect(cardValidator.cardValidator(true)).to.equal(false);
     });
     it('It should be false for empty string', () => {
       expect(cardValidator.cardValidator('')).to.equal(false);
