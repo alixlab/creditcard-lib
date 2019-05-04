@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
-let chai = require('chai');
-let expect = chai.expect;
-let cardValidator = require('../lib/index');
+const chai = require('chai');
+const expect = chai.expect;
+const cardValidator = require('../lib/index');
 
 describe('card lib', () => {
   describe('cardValidator', () => {
