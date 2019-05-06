@@ -6,7 +6,7 @@ $ npm install creditcard-lib
 
 # Como utilizar?
 ```
->const cardValidator = require('./lib/index');
+>const cardValidator = require('./node_modules/creditcard-lib/lib/index');
 >console.log(cardValidator.cardValidator('4532583597717044'));
 > // returns true;
 ```
@@ -14,5 +14,3 @@ $ npm install creditcard-lib
 # Roadmap oficial do projeto
 <p>Versão 1.0.0 (released)</p><br />
 <p>Funcionalidade: validar um cartão de crédito de 16 dígitos.</p>
-
-

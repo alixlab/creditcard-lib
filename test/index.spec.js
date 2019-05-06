@@ -29,5 +29,8 @@ describe('card lib', () => {
     it('It should be true for card with special characters', () => {
       expect(cardValidator.cardValidator('5213-3977-4433-3388')).to.equal(true);
     });
+    it('It should be false for repeated numbers', () => {
+      expect(cardValidator.cardValidator('0000000000000000')).to.equal(false);
+    });
   });
 });
