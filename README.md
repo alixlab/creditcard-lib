@@ -6,7 +6,7 @@ $ npm install creditcard-lib
 
 # Como utilizar?
 ```
->const cardValidator = require('./node_modules/creditcard-lib/lib/index');
+>const cardValidator = require("creditcard-lib");
 >console.log(cardValidator.cardValidator('4532583597717044'));
 > // returns true;
 ```
