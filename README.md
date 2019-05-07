@@ -1,4 +1,4 @@
-# creditcard-lib v.1.0.0
+# creditcard-al v.1.0.0
 <p> O objetivo desta biblioteca é validar dados de cartões de crédito. Através do algoritmo de Luhn, ela validará o número do cartão de crédito, retornando true ou false, de acordo com o caso.</p>
 
 # Como instalar?
