@@ -1,5 +1,5 @@
 {
-  "name": "creditcard-lib",
+  "name": "creditcard-al",
   "version": "1.0.0",
   "description": "A JS library to validate credit card data",
   "main": "index.js",
