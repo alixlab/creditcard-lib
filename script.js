@@ -1,2 +1,2 @@
 const cardValidator = require('creditcard-al');
-console.log(cardValidator.cardValidator('4532583597717044'));
+cardValidator.cardValidator('4532583597717044');

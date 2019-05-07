@@ -2,12 +2,12 @@
 <p> O objetivo desta biblioteca é validar dados de cartões de crédito. Através do algoritmo de Luhn, ela validará o número do cartão de crédito, retornando true ou false, de acordo com o caso.</p>
 
 # Como instalar?
-$ npm install creditcard-lib
+$ npm install creditcard-al
 
 # Como utilizar?
 ```
 >const cardValidator = require("creditcard-al");
->console.log(cardValidator.cardValidator('4532583597717044'));
+>cardValidator.cardValidator('4532583597717044');
 > // returns true;
 ```
 
